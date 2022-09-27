@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 20.09.2022 16:26:24
+    Compiled: 27.09.2022 21:49:19
     TPL file: /common_modal_dialog.tpl
 */
 function tpl_ada1f4cc1210dc390bcadeb694e3c855(Template $__tpl, &$__tpl_data){

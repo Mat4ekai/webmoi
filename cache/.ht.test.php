@@ -1,10 +1,5 @@
 <?php
-/*
-    SB-Template simple compiled template.
-    This script is generated, do not modify.
-    Compiled: 27.09.2022 17:46:19
-    TPL file: /test.tpl
-*/
+
 function tpl_0c601a885c32b40ebfce3165b2431165(Template $__tpl, &$__tpl_data){
 ?>
 <?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><?php Facade::Run("components.header", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
@@ -25,11 +20,8 @@ function tpl_0c601a885c32b40ebfce3165b2431165(Template $__tpl, &$__tpl_data){
 </section>
 
 <main id="main">
-
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
         <div class="container">
-
             <div class="row content">
                 <div class="col-lg-6">
                     <h2>Токарная и фрезерная обработка на станках с ЧПУ</h2>
@@ -51,7 +43,7 @@ function tpl_0c601a885c32b40ebfce3165b2431165(Template $__tpl, &$__tpl_data){
             </div>
 
         </div>
-    </section><!-- End About Section -->
+    </section>
 
 <section id="clients" class="clients section-bg">
     <div class="container">
@@ -65,9 +57,9 @@ function tpl_0c601a885c32b40ebfce3165b2431165(Template $__tpl, &$__tpl_data){
         </div>
     </div>
 </section>
+
 <section id="services" class="services">
     <div class="container">
-
         <div class="row">
             <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-briefcase", "text1" => "Доставка в любую точку РФ", "text2" => "Доставка заказа в любую точку РФ", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
             <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-card-checklist", "text1" => "Контроль качества", "text2" => "На всех этапах изготовления изделий, начиная от приемки материала до отправки деталей заказчику", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
@@ -79,7 +71,6 @@ function tpl_0c601a885c32b40ebfce3165b2431165(Template $__tpl, &$__tpl_data){
         </div>
     </div>
 </section>
-
 
 <?php Facade::Run("components.footer", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
 <?php } ?><?php

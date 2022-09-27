@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 27.09.2022 17:14:32
+    Compiled: 27.09.2022 21:49:24
     TPL file: /components_carouselcontrol.tpl
 */
 function tpl_17eebb296136b605861db7f39b515af2(Template $__tpl, &$__tpl_data){

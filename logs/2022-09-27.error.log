@@ -121,3 +121,25 @@ Stack trace:
 #16 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('index', Array, 'C:\\Projects\\sam...', 'http://localhos...')
 #17 C:\Projects\sample\index.php(10): Facade::Run('', Array, 'C:\\Projects\\sam...', 'http://localhos...')
 #18 {main}
+
+[2022-09-27 21:49:19] [13020] [0.0903] [779064] [ERROR] ErrorHandler: Exception: Warning: filemtime(): stat failed for C:\Projects\sample/assets/css/main.css in /cache/.ht.common_page_document.php on line 33. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'filemtime(): st...', '/cache/.ht.comm...', 33, Array)
+#1 C:\Projects\sample\cache\.ht.common_page_document.php(33): filemtime('C:\\Projects\\sam...')
+#2 C:\Projects\sample\classes\Template.php(433): tpl_e6816b7d29efc66af10da63a013e72d7(Object(Template), Array)
+#3 C:\Projects\sample\public\common\page\document.php(12): Template->Execute()
+#4 C:\Projects\sample\classes\Facade.php(168): Common_Page_Document_view->Render(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#6 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#7 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('common.page.doc...', Array, 'Execute')
+#8 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('common.page.doc...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#9 C:\Projects\sample\cache\.ht.index.php(10): Facade::Run('common.page.doc...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#10 C:\Projects\sample\classes\Template.php(433): tpl_0f17278e8f07f06fdfbd8b5ee1ceb114(Object(Template), Array)
+#11 C:\Projects\sample\public\index.php(8): Template->Execute()
+#12 C:\Projects\sample\classes\Facade.php(168): Index_view->Render(Object(Facade), Array)
+#13 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#14 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#15 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('index', Array, 'Execute')
+#16 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('index', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#17 C:\Projects\sample\index.php(10): Facade::Run('', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#18 {main}
