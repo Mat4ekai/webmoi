@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 27.09.2022 21:49:24
+    Compiled: 29.09.2022 16:29:48
     TPL file: /components_header.tpl
 */
 function tpl_4b1032485079038ab9af3c38622f40e7(Template $__tpl, &$__tpl_data){
@@ -14,12 +14,12 @@ function tpl_4b1032485079038ab9af3c38622f40e7(Template $__tpl, &$__tpl_data){
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="index.html" class="active">Главная</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="services.html">Услуги</a></li>
-                <li><a href="portfolio.html">Наши работы</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-                <li><a href="contact.html" class="getstarted">Оставить заявку</a></li>
+                <li><a href="index" class="active">Главная</a></li>
+                <li><a href="about">О нас</a></li>
+                <li><a href="services">Услуги</a></li>
+                <li><a href="portfolio">Наши работы</a></li>
+                <li><a href="contact">Контакты</a></li>
+                <li><a href="contact" class="getstarted">Оставить заявку</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->

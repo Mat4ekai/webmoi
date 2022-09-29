@@ -2,15 +2,13 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 27.09.2022 21:58:16
+    Compiled: 29.09.2022 16:20:47
     TPL file: /index.tpl
 */
 function tpl_0f17278e8f07f06fdfbd8b5ee1ceb114(Template $__tpl, &$__tpl_data){
 ?>
 <?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><?php Facade::Run("components.head", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-<?php Facade::Run("components.vendor", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
 <?php Facade::Run("components.header", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-
 
 <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -26,30 +24,7 @@ function tpl_0f17278e8f07f06fdfbd8b5ee1ceb114(Template $__tpl, &$__tpl_data){
 </section>
 
 <main id="main">
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row content">
-                <div class="col-lg-6">
-                    <h2>Токарная и фрезерная обработка на станках с ЧПУ</h2>
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0">
-                    <p>
-                        Преимущества работы с нашей компанией
-                    </p>
-                    <ul>
-                        <li><i class="ri-check-double-line"></i>Быстрые сроки доставки</li>
-                        <li><i class="ri-check-double-line"></i>Высокий уровень работ</li>
-                        <li><i class="ri-check-double-line"></i>Высококвалифицированные сотрудники</li>
-                    </ul>
-                    <p class="fst-italic">
-                        Наша компания основана в 2013 году, и за прошедший период успешно выполнила огромное количество заказов
-                        по производству продукции из различных видов материалов (металл, текстолит, фторопласт и др.)
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    <?php Facade::Run("components.aboutsection", array_merge($__tpl_data, array("__component_part" => "begin"), array("text1" => "Токарная и фрезерная обработка на станках с ЧПУ", "text2" => " Преимущества работы с нашей компанией", "text3" => "Быстрые сроки доставки", "text4" => "Высокий уровень работ", "text5" => "Высококвалифицированные сотрудники", "text6" => "Наша компания основана в 2013 году, и за прошедший период успешно выполнила огромное количество заказов по производству продукции из различных видов материалов (металл, текстолит, фторопласт и др.)", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
 
 <section id="clients" class="clients section-bg">
     <div class="container">
@@ -79,5 +54,5 @@ function tpl_0f17278e8f07f06fdfbd8b5ee1ceb114(Template $__tpl, &$__tpl_data){
 </section>
 
 <?php Facade::Run("components.footer", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-<?php } ?><?php
+<?php Facade::Run("components.vendor", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?><?php } ?><?php
 } // tpl_0f17278e8f07f06fdfbd8b5ee1ceb114

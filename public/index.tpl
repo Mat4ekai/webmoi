@@ -1,7 +1,5 @@
 <component name="components.head"/>
-<component name="components.vendor"/>
 <component name="components.header"/>
-
 
 <section id="hero">
     <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -20,30 +18,10 @@
 </section>
 
 <main id="main">
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row content">
-                <div class="col-lg-6">
-                    <h2>Токарная и фрезерная обработка на станках с ЧПУ</h2>
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0">
-                    <p>
-                        Преимущества работы с нашей компанией
-                    </p>
-                    <ul>
-                        <li><i class="ri-check-double-line"></i>Быстрые сроки доставки</li>
-                        <li><i class="ri-check-double-line"></i>Высокий уровень работ</li>
-                        <li><i class="ri-check-double-line"></i>Высококвалифицированные сотрудники</li>
-                    </ul>
-                    <p class="fst-italic">
-                        Наша компания основана в 2013 году, и за прошедший период успешно выполнила огромное количество заказов
-                        по производству продукции из различных видов материалов (металл, текстолит, фторопласт и др.)
-                    </p>
-                </div>
-            </div>
-
-        </div>
-    </section>
+    <component name="components.aboutsection" $text1="Токарная и фрезерная обработка на станках с ЧПУ" $text2=" Преимущества работы с нашей компанией"
+               $text3="Быстрые сроки доставки" $text4="Высокий уровень работ" $text5="Высококвалифицированные сотрудники"
+               $text6="Наша компания основана в 2013 году, и за прошедший период успешно выполнила огромное количество заказов
+                по производству продукции из различных видов материалов (металл, текстолит, фторопласт и др.)"/>
 
 <section id="clients" class="clients section-bg">
     <div class="container">
@@ -79,3 +57,4 @@
 </section>
 
 <component name="components.footer"/>
+<component name="components.vendor"/>

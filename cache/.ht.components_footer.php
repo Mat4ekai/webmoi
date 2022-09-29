@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 27.09.2022 21:49:24
+    Compiled: 29.09.2022 16:38:57
     TPL file: /components_footer.tpl
 */
 function tpl_dcf60b1b0cc458aede51742c2b748436(Template $__tpl, &$__tpl_data){
@@ -27,22 +27,22 @@ function tpl_dcf60b1b0cc458aede51742c2b748436(Template $__tpl, &$__tpl_data){
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Полезные ссылки</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="index.html">Главная</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="about.html">О нас</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Услуги</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="portfolio.html">Наши работы</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Контакты</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="index">Главная</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="about">О нас</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services">Услуги</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="portfolio">Наши работы</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="contact">Контакты</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
                     <h4>Наши услуги</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Обработка на токарных станках</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Обработка на фрезерных станках</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Сварка металлов</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Цинкование</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="services.html">Прокатка</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services">Обработка на токарных станках</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services">Обработка на фрезерных станках</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services">Сварка металлов</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services">Цинкование</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="services">Прокатка</a></li>
                     </ul>
                 </div>
 

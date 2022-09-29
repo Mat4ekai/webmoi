@@ -5,12 +5,12 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a href="index.html" class="active">Главная</a></li>
-                <li><a href="about.html">О нас</a></li>
-                <li><a href="services.html">Услуги</a></li>
-                <li><a href="portfolio.html">Наши работы</a></li>
-                <li><a href="contact.html">Контакты</a></li>
-                <li><a href="contact.html" class="getstarted">Оставить заявку</a></li>
+                <li><a href="index" class="active">Главная</a></li>
+                <li><a href="about">О нас</a></li>
+                <li><a href="services">Услуги</a></li>
+                <li><a href="portfolio">Наши работы</a></li>
+                <li><a href="contact">Контакты</a></li>
+                <li><a href="contact" class="getstarted">Оставить заявку</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
