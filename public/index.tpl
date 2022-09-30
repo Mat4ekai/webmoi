@@ -39,17 +39,17 @@
 <section id="services" class="services">
     <div class="container">
         <div class="row">
-            <component name="components.servicessection" $icon="-briefcase" $text1="Доставка в любую точку РФ"
+            <component name="components.featuressection" $icon="-briefcase" $text1="Доставка в любую точку РФ"
             $text2="Доставка заказа в любую точку РФ"/>
-            <component name="components.servicessection" $icon="-card-checklist" $text1="Контроль качества"
+            <component name="components.featuressection" $icon="-card-checklist" $text1="Контроль качества"
             $text2="На всех этапах изготовления изделий, начиная от приемки материала до отправки деталей заказчику"/>
-            <component name="components.servicessection" $icon="-bar-chart" $text1="Индивидуальный подход к каждому клиенту"
+            <component name="components.featuressection" $icon="-bar-chart" $text1="Индивидуальный подход к каждому клиенту"
             $text2="Изготовление заказа под ваши параметры"/>
-            <component name="components.servicessection" $icon="-binoculars" $text1="Гибкая ценовая политика"
+            <component name="components.featuressection" $icon="-binoculars" $text1="Гибкая ценовая политика"
             $text2="Система скидок и бонусов для партнеров"/>
-            <component name="components.servicessection" $icon="-brightness-high" $text1="Нестандартные сложные изделия"
+            <component name="components.featuressection" $icon="-brightness-high" $text1="Нестандартные сложные изделия"
             $text2="Изготавливаем различные детали, независимо от из вида и сложности"/>
-            <component name="components.servicessection" $icon="-calendar4-week" $text1="Кратчайшие сроки изготовления"
+            <component name="components.featuressection" $icon="-calendar4-week" $text1="Кратчайшие сроки изготовления"
             $text2="Сроки выполнения заказа от 1 дня"/>
             </div>
         </div>

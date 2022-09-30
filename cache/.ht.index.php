@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 29.09.2022 16:20:47
+    Compiled: 30.09.2022 22:04:57
     TPL file: /index.tpl
 */
 function tpl_0f17278e8f07f06fdfbd8b5ee1ceb114(Template $__tpl, &$__tpl_data){
@@ -42,12 +42,12 @@ function tpl_0f17278e8f07f06fdfbd8b5ee1ceb114(Template $__tpl, &$__tpl_data){
 <section id="services" class="services">
     <div class="container">
         <div class="row">
-            <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-briefcase", "text1" => "Доставка в любую точку РФ", "text2" => "Доставка заказа в любую точку РФ", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-            <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-card-checklist", "text1" => "Контроль качества", "text2" => "На всех этапах изготовления изделий, начиная от приемки материала до отправки деталей заказчику", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-            <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-bar-chart", "text1" => "Индивидуальный подход к каждому клиенту", "text2" => "Изготовление заказа под ваши параметры", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-            <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-binoculars", "text1" => "Гибкая ценовая политика", "text2" => "Система скидок и бонусов для партнеров", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-            <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-brightness-high", "text1" => "Нестандартные сложные изделия", "text2" => "Изготавливаем различные детали, независимо от из вида и сложности", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-            <?php Facade::Run("components.servicessection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-calendar4-week", "text1" => "Кратчайшие сроки изготовления", "text2" => "Сроки выполнения заказа от 1 дня", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+            <?php Facade::Run("components.featuressection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-briefcase", "text1" => "Доставка в любую точку РФ", "text2" => "Доставка заказа в любую точку РФ", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+            <?php Facade::Run("components.featuressection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-card-checklist", "text1" => "Контроль качества", "text2" => "На всех этапах изготовления изделий, начиная от приемки материала до отправки деталей заказчику", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+            <?php Facade::Run("components.featuressection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-bar-chart", "text1" => "Индивидуальный подход к каждому клиенту", "text2" => "Изготовление заказа под ваши параметры", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+            <?php Facade::Run("components.featuressection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-binoculars", "text1" => "Гибкая ценовая политика", "text2" => "Система скидок и бонусов для партнеров", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+            <?php Facade::Run("components.featuressection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-brightness-high", "text1" => "Нестандартные сложные изделия", "text2" => "Изготавливаем различные детали, независимо от из вида и сложности", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+            <?php Facade::Run("components.featuressection", array_merge($__tpl_data, array("__component_part" => "begin"), array("icon" => "-calendar4-week", "text1" => "Кратчайшие сроки изготовления", "text2" => "Сроки выполнения заказа от 1 дня", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
             </div>
         </div>
     </div>
