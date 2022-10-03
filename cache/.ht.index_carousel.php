@@ -2,12 +2,12 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 03.10.2022 12:40:00
-    TPL file: /components_carousel.tpl
+    Compiled: 03.10.2022 13:26:26
+    TPL file: /index_carousel.tpl
 */
-function tpl_b89b46d54e570363d2962cf3af755fc4(Template $__tpl, &$__tpl_data){
+function tpl_15a68adf57cb61b614b04718d9701e93(Template $__tpl, &$__tpl_data){
 ?>
-<?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><div class="carousel-item <?php echo Utils::ArrayGet('activecaro', $__tpl_data, null); ?>" style="background-image: url(assets/img/slide/<?php echo Utils::ArrayGet('slidejpg', $__tpl_data, null); ?>)">
+<?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><div class="carousel-item <?php echo Utils::ArrayGet('activecaro', $__tpl_data, null); ?>" style="background-image: url(/assets/img/slide/<?php echo Utils::ArrayGet('slidejpg', $__tpl_data, null); ?>)">
     <div class="carousel-container">
         <div class="container">
             <h2 class="animate__animated animate__fadeInDown"><?php echo Utils::ArrayGet('text1', $__tpl_data, null); ?></h2>
@@ -16,4 +16,4 @@ function tpl_b89b46d54e570363d2962cf3af755fc4(Template $__tpl, &$__tpl_data){
         </div>
     </div>
 </div><?php } ?><?php
-} // tpl_b89b46d54e570363d2962cf3af755fc4
+} // tpl_15a68adf57cb61b614b04718d9701e93

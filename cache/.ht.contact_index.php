@@ -2,13 +2,12 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 03.10.2022 12:40:50
-    TPL file: /contact.tpl
+    Compiled: 03.10.2022 13:39:51
+    TPL file: /contact_index.tpl
 */
-function tpl_059af8e7596444c07ae89df94aab525c(Template $__tpl, &$__tpl_data){
+function tpl_18733e56cd3c7f44917d139cee9861ca(Template $__tpl, &$__tpl_data){
 ?>
-<?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><?php Facade::Run("components.head", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-<?php Facade::Run("components.header", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+<?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><?php Facade::Run("common.page.document", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
 
 <main id="main">
 
@@ -22,13 +21,13 @@ function tpl_059af8e7596444c07ae89df94aab525c(Template $__tpl, &$__tpl_data){
         <div class="row mt-5">
             <div class="col-lg-4">
                 <div class="info">
-                    <?php Facade::Run("components.contactinfo", array_merge($__tpl_data, array("__component_part" => "begin"), array("class" => "address", "icon" => "-geo-alt", "text1" => "Адрес:", "text2" => "Улица Мира, 35. Владимир, Россия", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-                    <?php Facade::Run("components.contactinfo", array_merge($__tpl_data, array("__component_part" => "begin"), array("class" => "email", "icon" => "-envelope", "text1" => "Почта:", "text2" => "vladprompred@mail.ru", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-                    <?php Facade::Run("components.contactinfo", array_merge($__tpl_data, array("__component_part" => "begin"), array("class" => "phone", "icon" => "-phone", "text1" => "Номер:", "text2" => "+7(975)638-48-52", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+                    <?php Facade::Run("contact.contactinfo", array_merge($__tpl_data, array("__component_part" => "begin"), array("class" => "address", "icon" => "-geo-alt", "text1" => "Адрес:", "text2" => "Улица Мира, 35. Владимир, Россия", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+                    <?php Facade::Run("contact.contactinfo", array_merge($__tpl_data, array("__component_part" => "begin"), array("class" => "email", "icon" => "-envelope", "text1" => "Почта:", "text2" => "vladprompred@mail.ru", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
+                    <?php Facade::Run("contact.contactinfo", array_merge($__tpl_data, array("__component_part" => "begin"), array("class" => "phone", "icon" => "-phone", "text1" => "Номер:", "text2" => "+7(975)638-48-52", "__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
                 </div>
             </div>
             <div class="col-lg-8 mt-5 mt-lg-0">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="/forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
@@ -73,6 +72,5 @@ function tpl_059af8e7596444c07ae89df94aab525c(Template $__tpl, &$__tpl_data){
 
 </main>
 
-<?php Facade::Run("components.footer", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?>
-<?php Facade::Run("components.vendor", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "begin")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?><?php } ?><?php
-} // tpl_059af8e7596444c07ae89df94aab525c
+<?php Facade::Run("common.page.document", array_merge($__tpl_data, array("__component_part" => "begin"), array("__component_part" => "end")), $__tpl->getFacade()->getPath(), $__tpl->getFacade()->getUrl()); ?><?php } ?><?php
+} // tpl_18733e56cd3c7f44917d139cee9861ca

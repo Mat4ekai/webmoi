@@ -1,4 +1,4 @@
-<div class="carousel-item {{$activecaro}}" style="background-image: url(assets/img/slide/{{$slidejpg}})">
+<div class="carousel-item {{$activecaro}}" style="background-image: url(/assets/img/slide/{{$slidejpg}})">
     <div class="carousel-container">
         <div class="container">
             <h2 class="animate__animated animate__fadeInDown">{{$text1}}</h2>

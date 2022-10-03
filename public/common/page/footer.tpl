@@ -38,8 +38,8 @@
                 </div>
 
                 <div class="footer-widget text-center text-md-left col-md-12 mb-4 mb-lg-0 col-lg-3">
-                    <a href="index.html" class="footer-brand text-center">
-                        <img src="assets/img/logo.png" width="250" height="250" alt="">
+                    <a href="index" class="footer-brand text-center">
+                        <img src="/assets/img/logo.png" width="250" height="250" alt="">
                     </a>
                     <p class="text-center">©2022 ВладПромПред</p>
                 </div>
@@ -51,3 +51,5 @@
 
 
 </footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>

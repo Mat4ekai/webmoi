@@ -2,10 +2,10 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 03.10.2022 12:40:00
-    TPL file: /components_footer.tpl
+    Compiled: 03.10.2022 13:27:56
+    TPL file: /common_page_footer.tpl
 */
-function tpl_dcf60b1b0cc458aede51742c2b748436(Template $__tpl, &$__tpl_data){
+function tpl_5ab89c2f28f668a1771e4a4c8bf13049(Template $__tpl, &$__tpl_data){
 ?>
 <?php if (empty(Utils::ArrayGet('__component_part', $__tpl_data, null)) || Utils::ArrayGet('__component_part', $__tpl_data, null) == "begin") { ?><footer id="footer">
     <div class="footer-top">
@@ -47,8 +47,8 @@ function tpl_dcf60b1b0cc458aede51742c2b748436(Template $__tpl, &$__tpl_data){
                 </div>
 
                 <div class="footer-widget text-center text-md-left col-md-12 mb-4 mb-lg-0 col-lg-3">
-                    <a href="index.html" class="footer-brand text-center">
-                        <img src="assets/img/logo.png" width="250" height="250" alt="">
+                    <a href="index" class="footer-brand text-center">
+                        <img src="/assets/img/logo.png" width="250" height="250" alt="">
                     </a>
                     <p class="text-center">©2022 ВладПромПред</p>
                 </div>
@@ -59,5 +59,8 @@ function tpl_dcf60b1b0cc458aede51742c2b748436(Template $__tpl, &$__tpl_data){
     </div>
 
 
-</footer><?php } ?><?php
-} // tpl_dcf60b1b0cc458aede51742c2b748436
+</footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<?php } ?><?php
+} // tpl_5ab89c2f28f668a1771e4a4c8bf13049

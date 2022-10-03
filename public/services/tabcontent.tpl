@@ -6,7 +6,7 @@
             <p>{{$text3}}</p>
         </div>
         <div class="col-lg-4 text-center order-1 order-lg-2">
-            <img src="assets/img/features-{{$imagenum}}.png" alt="" height="174" width="260">
+            <img src="/assets/img/features-{{$imagenum}}.png" alt="" height="174" width="260">
         </div>
     </div>
 </div>

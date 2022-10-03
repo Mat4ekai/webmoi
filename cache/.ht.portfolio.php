@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 30.09.2022 20:51:58
+    Compiled: 03.10.2022 12:40:32
     TPL file: /portfolio.tpl
 */
 function tpl_1b7696a1f8f6f0051669c6e366bcb935(Template $__tpl, &$__tpl_data){

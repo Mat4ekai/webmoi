@@ -1,5 +1,4 @@
-<component name="components.head"/>
-<component name="components.header"/>
+<component name="common.page.document">
 
 <main id="main">
 
@@ -13,13 +12,13 @@
         <div class="row mt-5">
             <div class="col-lg-4">
                 <div class="info">
-                    <component name="components.contactinfo" $class="address" $icon="-geo-alt" $text1="Адрес:" $text2="Улица Мира, 35. Владимир, Россия"/>
-                    <component name="components.contactinfo" $class="email" $icon="-envelope" $text1="Почта:" $text2="vladprompred@mail.ru"/>
-                    <component name="components.contactinfo" $class="phone" $icon="-phone" $text1="Номер:" $text2="+7(975)638-48-52"/>
+                    <component name="contact.contactinfo" $class="address" $icon="-geo-alt" $text1="Адрес:" $text2="Улица Мира, 35. Владимир, Россия"/>
+                    <component name="contact.contactinfo" $class="email" $icon="-envelope" $text1="Почта:" $text2="vladprompred@mail.ru"/>
+                    <component name="contact.contactinfo" $class="phone" $icon="-phone" $text1="Номер:" $text2="+7(975)638-48-52"/>
                 </div>
             </div>
             <div class="col-lg-8 mt-5 mt-lg-0">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="/forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="col-md-6 form-group">
                             <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required>
@@ -64,5 +63,4 @@
 
 </main>
 
-<component name="components.footer"/>
-<component name="components.vendor"/>
+</component>
