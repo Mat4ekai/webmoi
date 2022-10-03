@@ -7,13 +7,9 @@
 <section id="portfolio" class="portfolio">
     <div class="container">
         <div class="row portfolio-container">
-            <component name="portfolio.portfoliophoto" $number="1"/>
-            <component name="portfolio.portfoliophoto" $number="2"/>
-            <component name="portfolio.portfoliophoto" $number="3"/>
-            <component name="portfolio.portfoliophoto" $number="4"/>
-            <component name="portfolio.portfoliophoto" $number="5"/>
-            <component name="portfolio.portfoliophoto" $number="6"/>
-            <component name="portfolio.portfoliophoto" $number="7"/>
+            {{for $images as $img}}
+            <component name="portfolio.portfoliophoto" img={$img}/>
+            {{/for}}
         </div>
     </div>
 </section>

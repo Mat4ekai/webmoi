@@ -230,49 +230,4 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
   });
-
-  // Отправка формы на сервер
-  const postData = async (url, fData) => { // имеет асинхронные операции
-
-    // начало отправки
-    // здесь можно оповестить пользователя о начале отправки
-
-    // ждём ответ, только тогда наш код пойдёт дальше
-    let fetchResponse = await fetch(url, {
-      method: "POST",
-      body: fData
-    });
-
-    // ждём окончания операции
-    return await fetchResponse.text();
-  };
-
-  if (forms) {
-    forms.forEach(el => {
-      el.addEventListener("submit", function (e) {
-        e.preventDefault();
-
-        // создание объекта FormData
-        let fData = new FormData(this);
-
-        // Добавление файлов input type file
-        let file = el.querySelector(".upload-file__input");
-        for (let i = 0; i < (file.files.length); i++) {
-          fData.append("files[]", file.files[i]); // добавляем файлы в объект FormData()
-        }
-
-        // Отправка на сервер
-        postData("./mail.php", fData)
-            .then(fetchResponse => {
-              console.log("Данные успешно отправлены!");
-              console.log(fetchResponse);
-            })
-            .catch(function (error) {
-              console.log("Ошибка!");
-              console.log(error);
-            });
-      });
-    });
-  };
-
 });
