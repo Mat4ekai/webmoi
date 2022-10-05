@@ -1,0 +1,87 @@
+
+[2022-10-05 16:39:15] [6188] [0.0066] [636024] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db_host in /public/contact/index.php on line 11. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(11): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 11, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-05 16:39:15] [6188] [0.0094] [636320] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db_host in /public/contact/index.php on line 19. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(19): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 19, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+
+[2022-10-05 16:50:45] [6188] [0.0020] [644920] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: result in /public/contact/index.php on line 38. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(38): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 38, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+
+[2022-10-05 16:53:17] [6188] [0.0020] [644968] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: result in /public/contact/index.php on line 38. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(38): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 38, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+
+[2022-10-05 16:58:00] [6188] [0.0040] [644968] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: result in /public/contact/index.php on line 38. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(38): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 38, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+
+[2022-10-05 17:03:11] [6188] [0.0061] [644968] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: result in /public/contact/index.php on line 38. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(38): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 38, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+
+[2022-10-05 17:16:43] [6188] [0.0039] [644968] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: result in /public/contact/index.php on line 38. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(38): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 38, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+
+[2022-10-05 17:49:13] [6188] [0.0043] [644968] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: result in /public/contact/index.php on line 38. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(38): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 38, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
