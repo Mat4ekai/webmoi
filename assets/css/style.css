@@ -1791,6 +1791,7 @@ section {
   overflow: hidden;
   width: 0.4px;
   height: 0.4px;
+  margin-top:50px;
 }
 
 .upload-file__label {
@@ -1803,29 +1804,35 @@ section {
   border-radius: 6px;
   cursor: pointer;
   float: right;
+  margin-top:50px;
 }
 
 .upload-file__icon {
   width: 30px;
   height: auto;
   margin-right: 11px;
+  margin-top:50px;
 }
 
 .upload-file__label .upload-file__text,
 .upload-file__label .upload-file__icon path {
   transition: .25s ease;
+  margin-top:50px;
 }
 
 .upload-file__label:hover .upload-file__text {
   color: #58862D;
+  margin-top:50px;
 }
 
 .upload-file__label:hover .upload-file__icon path {
   fill: #58862D;
+  margin-top:50px;
 }
 
 .upload-file__label:hover {
   border: 2px dashed #58862D;
+  margin-top:50px;
 }
 
 .modalphoto {

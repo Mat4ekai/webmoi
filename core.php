@@ -116,3 +116,4 @@ if (!empty($log))
 LogWriter::Log("CORE", LL_INFO, "Begin");
 FileCache::SetPath(ROOT_PATH."/cache/data");
 FileCache::Enable();
+

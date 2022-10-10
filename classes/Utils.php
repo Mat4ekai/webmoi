@@ -7,6 +7,18 @@ class Utils
     const CT_ENCODED = "application/php-encoded";
     const CT_COMPRESSED = "application/php-compressed";
 
+    private static $db = null;
+
+    public static function DB() {
+        if(empty(self::$db)) {
+            LogWriter::Log(__METHOD__, LL_INFO, "Connecting to database " . DB_NAME . " on " . DB_SERVER . ":" . DB_PORT);
+            self::$db = new MysqliDb(DB_SERVER, DB_USER, DB_PASSWORD, DB_NAME, DB_PORT);
+            self::$db->connect();
+            LogWriter::Log(__METHOD__, LL_INFO, "Connection established");
+        }
+        return self::$db;
+    }
+
     public static function RequestArr(array $params)
     {
         $ret = array();
