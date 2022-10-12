@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 10.10.2022 15:05:19
+    Compiled: 12.10.2022 15:30:21
     TPL file: /contact_index.tpl
 */
 function tpl_18733e56cd3c7f44917d139cee9861ca(Template $__tpl, &$__tpl_data){
@@ -43,7 +43,7 @@ function tpl_18733e56cd3c7f44917d139cee9861ca(Template $__tpl, &$__tpl_data){
                     <div class="form-group mt-3">
                         <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required></textarea>
                     </div>
-                    <div class="upload-file__wrapper" style="margin-top:25px">
+                    <div class="upload-file__wrapper">
                         <input
                                 type="file"
                                 name="files[]"
@@ -59,7 +59,7 @@ function tpl_18733e56cd3c7f44917d139cee9861ca(Template $__tpl, &$__tpl_data){
                             <span class="upload-file__text">Прикрепить файл</span>
                         </label>
                     </div>
-                    <div class="text-center"><button type="submit" class="red" style="margin-top:15px">Отправить сообщение</button></div>
+                    <div class="text-center"><button type="submit" href="/postcontact">Отправить сообщение</button></div>
                 </form>
             </div>
         </div>

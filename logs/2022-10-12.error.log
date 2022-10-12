@@ -1,0 +1,247 @@
+
+[2022-10-12 15:46:11] [5660] [0.0358] [893448] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 15:46:11] [5660] [0.0436] [899696] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 15:50:27] [5660] [0.0146] [893416] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 15:50:27] [5660] [0.0164] [899664] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 15:50:39] [5660] [0.0360] [893416] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 15:50:39] [5660] [0.0364] [899664] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 15:51:30] [5660] [0.0224] [893416] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 15:51:30] [5660] [0.0228] [899664] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 15:52:30] [5660] [0.0094] [893416] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 15:52:30] [5660] [0.0107] [899664] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 15:58:34] [5660] [0.0102] [893416] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 15:58:34] [5660] [0.0105] [899664] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 16:02:02] [5660] [0.0176] [893944] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\contact\index.php(51): gErrorHandler(8, 'Undefined varia...', '/public/contact...', 51, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-12 16:02:02] [5660] [0.0181] [900192] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function query() on null in C:\Projects\sample\public\contact\index.php:51
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/contact/index.php on line 51. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/contact...', 51)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-12 16:52:13] [5660] [0.0376] [895696] [ERROR] ErrorHandler: Exception: Warning: mysqli_fetch_all() expects parameter 1 to be mysqli_result, array given in /public/contact/index.php on line 54. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'mysqli_fetch_al...', '/public/contact...', 54, Array)
+#1 C:\Projects\sample\public\contact\index.php(54): mysqli_fetch_all(Array, 1)
+#2 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#4 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#6 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#8 {main}
+
+[2022-10-12 16:58:22] [5660] [0.0113] [895696] [ERROR] ErrorHandler: Exception: Warning: mysqli_fetch_all() expects parameter 1 to be mysqli_result, array given in /public/contact/index.php on line 54. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'mysqli_fetch_al...', '/public/contact...', 54, Array)
+#1 C:\Projects\sample\public\contact\index.php(54): mysqli_fetch_all(Array, 1)
+#2 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#4 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#6 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#8 {main}
+
+[2022-10-12 17:04:55] [5660] [0.0126] [895696] [ERROR] ErrorHandler: Exception: Warning: mysqli_fetch_all() expects parameter 1 to be mysqli_result, array given in /public/contact/index.php on line 54. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'mysqli_fetch_al...', '/public/contact...', 54, Array)
+#1 C:\Projects\sample\public\contact\index.php(54): mysqli_fetch_all(Array, 1)
+#2 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#4 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#6 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#8 {main}
+
+[2022-10-12 17:04:58] [5660] [0.0329] [895712] [ERROR] ErrorHandler: Exception: Warning: mysqli_fetch_all() expects parameter 1 to be mysqli_result, array given in /public/contact/index.php on line 54. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'mysqli_fetch_al...', '/public/contact...', 54, Array)
+#1 C:\Projects\sample\public\contact\index.php(54): mysqli_fetch_all(Array, 1)
+#2 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#4 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#6 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#8 {main}
+
+[2022-10-12 17:12:46] [5660] [0.0147] [895712] [ERROR] ErrorHandler: Exception: Warning: mysqli_fetch_all() expects parameter 1 to be mysqli_result, array given in /public/contact/index.php on line 54. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'mysqli_fetch_al...', '/public/contact...', 54, Array)
+#1 C:\Projects\sample\public\contact\index.php(54): mysqli_fetch_all(Array, 1)
+#2 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#4 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#6 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#8 {main}
+
+[2022-10-12 17:13:54] [5660] [0.0363] [895712] [ERROR] ErrorHandler: Exception: Warning: mysqli_fetch_all() expects parameter 1 to be mysqli_result, array given in /public/contact/index.php on line 54. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 [internal function]: gErrorHandler(2, 'mysqli_fetch_al...', '/public/contact...', 54, Array)
+#1 C:\Projects\sample\public\contact\index.php(54): mysqli_fetch_all(Array, 1)
+#2 C:\Projects\sample\classes\Facade.php(168): Contact_Index_View->SendForm(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#4 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#5 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('contact', Array, 'Execute')
+#6 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 C:\Projects\sample\index.php(10): Facade::Run('contact', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#8 {main}

@@ -34,7 +34,7 @@
                     <div class="form-group mt-3">
                         <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required></textarea>
                     </div>
-                    <div class="upload-file__wrapper" style="margin-top:25px">
+                    <div class="upload-file__wrapper">
                         <input
                                 type="file"
                                 name="files[]"
@@ -50,7 +50,7 @@
                             <span class="upload-file__text">Прикрепить файл</span>
                         </label>
                     </div>
-                    <div class="text-center"><button type="submit" class="red" style="margin-top:15px">Отправить сообщение</button></div>
+                    <div class="text-center"><button type="submit" href="/postcontact">Отправить сообщение</button></div>
                 </form>
             </div>
         </div>
