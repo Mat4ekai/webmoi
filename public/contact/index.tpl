@@ -22,17 +22,17 @@
                     <input type="hidden" name="action" value="SendForm">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required >
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" required maxlength="25">
                         </div>
                         <div class="col-md-6 form-group mt-3 mt-md-0">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Ваша почта" required>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Ваша почта" required maxlength="25">
                         </div>
                     </div>
                     <div class="form-group mt-3">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема" required>
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема" required maxlength="25">
                     </div>
                     <div class="form-group mt-3">
-                        <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required></textarea>
+                        <textarea class="form-control" name="message" rows="5" placeholder="Сообщение" required maxlength="25"></textarea>
                     </div>
                     <div class="upload-file__wrapper">
                         <input
@@ -50,7 +50,7 @@
                             <span class="upload-file__text">Прикрепить файл</span>
                         </label>
                     </div>
-                    <div class="text-center"><button type="submit" href="/postcontact">Отправить сообщение</button></div>
+                    <div class="text-center"><button type="submit" class="btn btn-danger">Отправить сообщение</button></div>
                 </form>
             </div>
         </div>

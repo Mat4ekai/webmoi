@@ -1834,3 +1834,11 @@ section {
   margin-left: 25px; 
   margin-top: 10px;
 }
+
+.buttonpost {
+  width: 150px;
+  height: 26px;
+  border: 1px solid #0a3c59;
+  margin-bottom: 15px;
+
+}
