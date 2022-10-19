@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 03.10.2022 13:09:25
+    Compiled: 19.10.2022 16:28:12
     TPL file: /common_page_head.tpl
 */
 function tpl_b9b43cbc13ca5c25678e5759515a8b03(Template $__tpl, &$__tpl_data){
@@ -33,6 +33,6 @@ function tpl_b9b43cbc13ca5c25678e5759515a8b03(Template $__tpl, &$__tpl_data){
 
     <!-- Template Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet">
-
+    <script src="/assets/vendor/jquery/jquery-3.6.0.min.js"></script>
 </head><?php } ?><?php
 } // tpl_b9b43cbc13ca5c25678e5759515a8b03

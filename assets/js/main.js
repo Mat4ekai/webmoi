@@ -1,9 +1,3 @@
-/**
-* Template Name: Sailor - v4.7.0
-* Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 

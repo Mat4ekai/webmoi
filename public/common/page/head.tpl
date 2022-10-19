@@ -24,5 +24,5 @@
 
     <!-- Template Main CSS File -->
     <link href="/assets/css/style.css" rel="stylesheet">
-
+    <script src="/assets/vendor/jquery/jquery-3.6.0.min.js"></script>
 </head>
