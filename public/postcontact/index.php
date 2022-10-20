@@ -11,4 +11,9 @@ class Postcontact_Index_View extends FacadePage
         return $template->Execute();
     }
 
+    public function SendForm(Facade $facade, $data)
+    {
+
+
+    }
 }
