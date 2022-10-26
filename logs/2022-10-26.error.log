@@ -1,0 +1,82 @@
+
+[2022-10-26 16:03:30] [5548] [0.0336] [900896] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught ArgumentCountError: Too few arguments to function MysqliDb::update(), 1 passed in C:\Projects\sample\public\postcontact\index.php on line 23 and at least 2 expected in C:\Projects\sample\classes\MysqliDb.php:774
+Stack trace:
+#0 C:\Projects\sample\public\postcontact\index.php(23): MysqliDb->update('form')
+#1 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+  thrown in /classes/MysqliDb.php on line 774. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Argume...', '/classes/Mysqli...', 774)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-26 16:06:21] [5548] [0.0291] [900848] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught ArgumentCountError: Too few arguments to function MysqliDb::update(), 1 passed in C:\Projects\sample\public\postcontact\index.php on line 22 and at least 2 expected in C:\Projects\sample\classes\MysqliDb.php:774
+Stack trace:
+#0 C:\Projects\sample\public\postcontact\index.php(22): MysqliDb->update('form')
+#1 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+  thrown in /classes/MysqliDb.php on line 774. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Argume...', '/classes/Mysqli...', 774)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-26 16:18:05] [5548] [0.0032] [638656] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/postcontact/index.php on line 22. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\postcontact\index.php(22): gErrorHandler(8, 'Undefined varia...', '/public/postcon...', 22, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-26 16:18:05] [5548] [0.0039] [645224] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function where() on null in C:\Projects\sample\public\postcontact\index.php:22
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/postcontact/index.php on line 22. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/postcon...', 22)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
+
+[2022-10-26 16:18:55] [5548] [0.0017] [638776] [ERROR] ErrorHandler: Exception: Notice: Undefined variable: db in /public/postcontact/index.php on line 22. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\public\postcontact\index.php(22): gErrorHandler(8, 'Undefined varia...', '/public/postcon...', 22, Array)
+#1 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#2 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#3 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#4 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#5 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#7 {main}
+[2022-10-26 16:18:55] [5548] [0.0021] [645344] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function where() on null in C:\Projects\sample\public\postcontact\index.php:22
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/postcontact/index.php on line 22. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/postcon...', 22)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}
