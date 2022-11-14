@@ -39,7 +39,7 @@
                         <div class="form-group mt-3">
                             <div class="modal-body3"></div>
                         </div>
-                        <div class="text-center"><button type="submit" style="margin-top: 50px" class="btn btn-danger">Отправить сообщение</button></div>
+                        <div class="text-center"><button type="submit" name = "edit" value="edit" style="margin-top: 50px" class="btn btn-danger">Отправить сообщение</button></div>
                     </form>
                 </div>
             </div>

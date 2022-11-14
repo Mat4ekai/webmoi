@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 26.10.2022 17:33:30
+    Compiled: 14.11.2022 13:03:18
     TPL file: /postcontact_index.tpl
 */
 function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
@@ -48,7 +48,7 @@ function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
                         <div class="form-group mt-3">
                             <div class="modal-body3"></div>
                         </div>
-                        <div class="text-center"><button type="submit" style="margin-top: 50px" class="btn btn-danger">Отправить сообщение</button></div>
+                        <div class="text-center"><button type="submit" name = "edit" value="edit" style="margin-top: 50px" class="btn btn-danger">Отправить сообщение</button></div>
                     </form>
                 </div>
             </div>

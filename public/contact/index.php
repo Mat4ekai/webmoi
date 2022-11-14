@@ -43,10 +43,9 @@ class Contact_Index_View extends FacadePage
                 ]);
             //$_REQUEST['action'] = null;
             //return parent::Render($facade, $data);
-            ob_start();
             $next = '/postcontact/index';
             header('Location: '.$next);
-            ob_end_flush();
+
 
         }
     }
