@@ -2,7 +2,7 @@
 /*
     SB-Template simple compiled template.
     This script is generated, do not modify.
-    Compiled: 16.11.2022 16:21:35
+    Compiled: 16.11.2022 17:29:12
     TPL file: /postcontact_index.tpl
 */
 function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
@@ -17,9 +17,10 @@ function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
      <?php if(is_array(Utils::ArrayGet('rows', $__tpl_data, null))) { foreach (Utils::ArrayGet('rows', $__tpl_data, null) as $row) { ?>
      <div class="row">
           <hr width="700" size="5">
-          <div data-id2="<?php echo Utils::ArrayGet('email', $row, null); ?>" class="col-3 email-edit" style="margin-left: 35px"><?php echo Utils::ArrayGet('email', $row, null); ?></div>
-          <div data-id3="<?php echo Utils::ArrayGet('name', $row, null); ?>" class="col name-edit"><?php echo Utils::ArrayGet('name', $row, null); ?></div>
-          <div data-id4="<?php echo Utils::ArrayGet('subject', $row, null); ?>" class="col subject-edit"><?php echo Utils::ArrayGet('subject', $row, null); ?></div>
+          <div class="col id-edit" style="margin-left: 15px"><strong><?php echo Utils::ArrayGet('id', $row, null); ?></strong></div>
+          <div class="col email-edit"><?php echo Utils::ArrayGet('email', $row, null); ?></div>
+          <div class="col name-edit"><?php echo Utils::ArrayGet('name', $row, null); ?></div>
+          <div class="col subject-edit"><?php echo Utils::ArrayGet('subject', $row, null); ?></div>
          <button data-email="<?php echo Utils::ArrayGet('email', $row, null); ?>" data-name="<?php echo Utils::ArrayGet('name', $row, null); ?>" data-subject="<?php echo Utils::ArrayGet('subject', $row, null); ?>" data-id="<?php echo Utils::ArrayGet('id', $row, null); ?>" type="button" class="btn btn-edit btn-primary btn-sm" style="width: 100px; height: 30px; margin-bottom: 15px; margin-right: 20px">
               edit
           </button>
@@ -37,7 +38,7 @@ function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
                 <div class="modal-body">
                     <form method="POST" id="contactEditForm">
                         <input type="hidden" name="action" value="SendForm">
-                        <input type="hidden" name="id" value="">
+                        <input type="hidden" id="contactEdit-id" name="id" value="">
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <input type="text" name="email" id="contactEdit-email" class="form-control">
@@ -73,7 +74,8 @@ function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
             let postData = {};
             formData.forEach((item) => {
                 postData[item.name] = item.value;
-            });
+            })
+            location.reload();
 
             $.post({
                 url: "/postcontact/index",
@@ -82,7 +84,28 @@ function tpl_a68799c05871179af14a8a532fe81fed(Template $__tpl, &$__tpl_data){
                     try {
                         let res = (typeof data === 'object') ? data : JSON.parse(data);
                         if(res.result == "success") {
-                            window.location = "/postcontact/index";
+                            $("#show_fiters").on('click', function(e) {
+                                e.preventDefault();
+                                if (!$(this).is(":hidden")) {
+                                    $(this).fadeIn(300);
+                                    $("body").css({
+                                        "position": "fixed",
+                                        "top": -$(document).scrollTop() + "px",
+                                        "overflow": "hidden",
+                                        "right": 0,
+                                        "left": 0,
+                                        "bottom": 0
+                                    });
+                                } else {
+                                    $(this).fadeOut(300);
+                                    curTop = $("body").css("top");
+                                    curTop = Math.abs(parseInt(curTop, 10));
+                                    $("body").attr("style", "")
+                                    if (curTop !== 0) {
+                                        $("html").scrollTop(curTop);
+                                    }
+                                }
+                            });
                         }
                     } catch(error) {
                         alert(error.message);

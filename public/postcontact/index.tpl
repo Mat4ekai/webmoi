@@ -8,9 +8,10 @@
      {{for $rows as $row}}
      <div class="row">
           <hr width="700" size="5">
-          <div data-id2="{{$row.email}}" class="col-3 email-edit" style="margin-left: 35px">{{$row.email}}</div>
-          <div data-id3="{{$row.name}}" class="col name-edit">{{$row.name}}</div>
-          <div data-id4="{{$row.subject}}" class="col subject-edit">{{$row.subject}}</div>
+          <div class="col id-edit" style="margin-left: 15px"><strong>{{$row.id}}</strong></div>
+          <div class="col email-edit">{{$row.email}}</div>
+          <div class="col name-edit">{{$row.name}}</div>
+          <div class="col subject-edit">{{$row.subject}}</div>
          <button data-email="{{$row.email}}" data-name="{{$row.name}}" data-subject="{{$row.subject}}" data-id="{{$row.id}}" type="button" class="btn btn-edit btn-primary btn-sm" style="width: 100px; height: 30px; margin-bottom: 15px; margin-right: 20px">
               edit
           </button>
@@ -28,7 +29,7 @@
                 <div class="modal-body">
                     <form method="POST" id="contactEditForm">
                         <input type="hidden" name="action" value="SendForm">
-                        <input type="hidden" name="id" value="">
+                        <input type="hidden" id="contactEdit-id" name="id" value="">
                         <div class="row">
                             <div class="col-md-6 form-group">
                                 <input type="text" name="email" id="contactEdit-email" class="form-control">
@@ -64,7 +65,8 @@
             let postData = {};
             formData.forEach((item) => {
                 postData[item.name] = item.value;
-            });
+            })
+            location.reload();
 
             $.post({
                 url: "/postcontact/index",
@@ -73,7 +75,28 @@
                     try {
                         let res = (typeof data === 'object') ? data : JSON.parse(data);
                         if(res.result == "success") {
-                            window.location = "/postcontact/index";
+                            $("#show_fiters").on('click', function(e) {
+                                e.preventDefault();
+                                if (!$(this).is(":hidden")) {
+                                    $(this).fadeIn(300);
+                                    $("body").css({
+                                        "position": "fixed",
+                                        "top": -$(document).scrollTop() + "px",
+                                        "overflow": "hidden",
+                                        "right": 0,
+                                        "left": 0,
+                                        "bottom": 0
+                                    });
+                                } else {
+                                    $(this).fadeOut(300);
+                                    curTop = $("body").css("top");
+                                    curTop = Math.abs(parseInt(curTop, 10));
+                                    $("body").attr("style", "")
+                                    if (curTop !== 0) {
+                                        $("html").scrollTop(curTop);
+                                    }
+                                }
+                            });
                         }
                     } catch(error) {
                         alert(error.message);
