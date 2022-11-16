@@ -1,0 +1,15 @@
+
+[2022-11-16 16:14:01] [9032] [0.0490] [899416] [ERROR] ErrorHandler: Exception: Fatal error: Uncaught Error: Call to a member function where() on bool in C:\Projects\sample\public\postcontact\index.php:28
+Stack trace:
+#0 C:\Projects\sample\classes\Facade.php(168): Postcontact_Index_View->SendForm(Object(Facade), Array)
+#1 C:\Projects\sample\classes\Facade.php(196): FacadeView->ProcessRequestAction(Object(Facade), Array, 'Render')
+#2 C:\Projects\sample\classes\Facade.php(119): FacadeView->Execute(Object(Facade), Array)
+#3 C:\Projects\sample\classes\Facade.php(24): Facade->doExecute('postcontact/ind...', Array, 'Execute')
+#4 C:\Projects\sample\classes\Facade.php(16): Facade::Execute('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#5 C:\Projects\sample\index.php(10): Facade::Run('postcontact/ind...', Array, 'C:\\Projects\\sam...', 'http://localhos...')
+#6 {main}
+  thrown in /public/postcontact/index.php on line 28. in C:\Projects\sample\core.php:85
+Stack trace:
+#0 C:\Projects\sample\core.php(100): gErrorHandler(1, 'Uncaught Error:...', '/public/postcon...', 28)
+#1 [internal function]: gErrorHandler_shutdown()
+#2 {main}

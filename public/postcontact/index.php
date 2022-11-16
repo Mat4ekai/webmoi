@@ -11,9 +11,9 @@ class Postcontact_Index_View extends FacadePage
         return $template->Execute();
     }
 
-    public function Sendform(Facade $facade, $data)
+    public function SendForm(Facade $facade, $data)
     {
-        if (isset($_POST['edit'])) {
+        if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['subject']) && isset($_POST['id'])) {
 
             $id = $_POST['id'];
             $name = $_POST['name'];
@@ -21,13 +21,16 @@ class Postcontact_Index_View extends FacadePage
             $subject = $_POST['subject'];
 
             $db = Utils::DB();
-            $db->update(form)
-            -> set([
-                name => $name,
-                email => $email,
-                subject => $subject,
-            ])
-            -> where ($id = id);
+            $db->where("id", $id)->update("form", [
+                'name'    => $name,
+                'email'   => $email,
+                'subject' => $subject,
+            ]);
+            return JsonResponse::Success(true);
+            ///mysqli_query("UPDATE form SET name = '$name', email = '$email', subject = '$subject' WHERE id = $id");
+
+        } else {
+            return JsonResponse::Error("Incorrect request");
         }
     }
 }
