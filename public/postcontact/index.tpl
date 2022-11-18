@@ -6,17 +6,15 @@
 
      <h2 style="margin-bottom: 25px; margin-left: 25px">На этой странице мы проверим правильность введенных данных</h2>
      {{for $rows as $row}}
-     <div class="row">
-          <hr width="700" size="5">
-          <div class="col id-edit" style="margin-left: 15px"><strong>{{$row.id}}</strong></div>
-          <div class="col email-edit">{{$row.email}}</div>
-          <div class="col name-edit">{{$row.name}}</div>
-          <div class="col subject-edit">{{$row.subject}}</div>
-         <button data-email="{{$row.email}}" data-name="{{$row.name}}" data-subject="{{$row.subject}}" data-id="{{$row.id}}" type="button" class="btn btn-edit btn-primary btn-sm" style="width: 100px; height: 30px; margin-bottom: 15px; margin-right: 20px">
-              edit
-          </button>
-          <hr width="700" size="5" >
-     </div><br>
+     <div class="row record-row border-bottom border-top p-3 mb-2" data-id="{{$row.id}}">
+        <div class="col-1 record-id"><strong>{{$row.id}}</strong></div>
+        <div class="col-2 record-email">{{$row.email}}</div>
+        <div class="col-2 record-name">{{$row.name}}</div>
+        <div class="col-5 record-subject">{{$row.subject}}</div>
+        <div class="col-2">
+            <button type="button" class="btn btn-edit w-100 btn-primary btn-sm">edit</button>
+        </div>
+     </div>
     {{/for}}
 
     <div class="modal fade" id="exampleModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -51,10 +49,11 @@
     <script>
         $(".btn-edit").click(
             function() {
-                $("#contactEdit-email").val($(this).attr('data-email'));
-                $("#contactEdit-name").val($(this).attr('data-name'));
-                $("#contactEdit-subject").val($(this).attr('data-subject'));
-                $("#contactEdit-id").val($(this).attr('data-id'));
+                let row = $(this).closest(".record-row");
+                $("#contactEdit-email").val(row.find(".record-email").text());
+                $("#contactEdit-name").val(row.find(".record-name").text());
+                $("#contactEdit-subject").val(row.find(".record-subject").text());
+                $("#contactEdit-id").val(row.find(".record-id").text());
                 $("#exampleModal").modal("show");
             }
         );
@@ -65,8 +64,7 @@
             let postData = {};
             formData.forEach((item) => {
                 postData[item.name] = item.value;
-            })
-            location.reload();
+            });
 
             $.post({
                 url: "/postcontact/index",
@@ -75,28 +73,11 @@
                     try {
                         let res = (typeof data === 'object') ? data : JSON.parse(data);
                         if(res.result == "success") {
-                            $("#show_fiters").on('click', function(e) {
-                                e.preventDefault();
-                                if (!$(this).is(":hidden")) {
-                                    $(this).fadeIn(300);
-                                    $("body").css({
-                                        "position": "fixed",
-                                        "top": -$(document).scrollTop() + "px",
-                                        "overflow": "hidden",
-                                        "right": 0,
-                                        "left": 0,
-                                        "bottom": 0
-                                    });
-                                } else {
-                                    $(this).fadeOut(300);
-                                    curTop = $("body").css("top");
-                                    curTop = Math.abs(parseInt(curTop, 10));
-                                    $("body").attr("style", "")
-                                    if (curTop !== 0) {
-                                        $("html").scrollTop(curTop);
-                                    }
-                                }
-                            });
+                            let row = $('.record-row[data-id="'+postData['id']+'"]');
+                            row.find(".record-email").text(postData['email']);
+                            row.find(".record-subject").text(postData['subject']);
+                            row.find(".record-name").text(postData['name']);
+                            $("#exampleModal").modal("hide");
                         }
                     } catch(error) {
                         alert(error.message);
